@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { useAuth } from "@/contexts/auth";
 import { useEffect, useState } from "react";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
-import Sidebar from "@/components/sidebar/sidebar";
+import Sidebar from "@/components/sidebar/Sidebar";
 import Main from "@/components/main/Main";
 import CheckIfLoggedIn from "@/components/other/CheckIfLoggedIn";
 
